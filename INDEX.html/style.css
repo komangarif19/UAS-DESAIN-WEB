@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(152, 154, 182);
+}
+.navlogo{
+    padding-left: 30px;
+    width: 15%;
+}
+.navtitle{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(76, 190, 162);
+}
+.imgabout{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.about{
+    background-color: aliceblue;
+}
+.aboutdesc{
+    font-size: 10px;
+    color: black;
+    padding: 1rem 3rem;
+}
+.counting{
+    width: 100%;
+    padding: 2rem 5%;
+    margin: 1rem 0;
+    min-height: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flax-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/jeep.jpg");
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/jeep.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.counting .box{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 25rem;
+        flex: 1 1 25rem;
+    text-align: center;
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+.counting .box .count{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 500;
+    padding-bottom: 0,5rem;
+    
+}
+.counting .box i{
+    color: white;
+    font-size: 6rem;
+    font-weight: 6rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    
+}
+.footer{
+    background-color: black;
+    padding: 2rem 5%;
+    color: azure;
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color:aqua ;
+}
+.footer a:hover{
+    color: aliceblue;
+}
+.jdsub{
+    text-align: center;
+    text-shadow: 1px 1px #ccc;
+}
+.img-menu{
+    height: 230px;
+    overflow: hidden;
+}
+.img-menu img{
+    transition: transform .5s ease;
+}
+.img-menu:hover img{
+    transform: scale(1,5);
+}
